@@ -1,23 +1,47 @@
 <!DOCTYPE html>
-<html>
+<html lang="id">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Farid Portfolio</title>
+  <title>Farid Portofolio</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>Farid</h1>
-    <p>Frontend Developer</p>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <h2 class="logo">Farid</h2>
+
+    <button id="menuBtn" aria-label="Open menu">☰</button>
+
+    <ul id="menu">
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <header id="hero">
+    <h1>Hi, I'm Farid</h1>
+    <p>Frontend Developer who loves building interactive websites</p>
+
+    <div class="hero-btn">
+      <a href="#projects" class="btn primary">View Projects</a>
+      <a href="#contact" class="btn secondary">Contact Me</a>
+    </div>
   </header>
 
-  <section class="about card">
+  <!-- ABOUT -->
+  <section id="about" class="about card">
     <h2>Tentang Saya</h2>
-    <p>Saya seorang Frontend Developer yang sedang belajar membuat website interaktif dan menarik.</p>
+    <p>
+      Saya seorang Frontend Developer yang sedang belajar membuat website interaktif dan menarik.
+    </p>
   </section>
 
-  <section class="projects card">
+  <!-- PROJECTS -->
+  <section id="projects" class="projects card">
     <h2>Project</h2>
     <ul>
       <li>Website Portfolio</li>
@@ -26,15 +50,17 @@
     </ul>
   </section>
 
-  <section class="contact card">
+   <!-- CONTACT -->
+  <section id="contact" class="contact card">
     <h2>Kontak</h2>
     <p>Email: farid419@gmail.com</p>
-    <p>WhatsApp: 082283359710/p>
+    <p>WhatsApp: 082283359710</p>
   </section>
 
   <footer>
     <p>© 2026 Farid Portfolio</p>
   </footer>
+
   <script src="script.js"></script>
 </body>
 </html>
