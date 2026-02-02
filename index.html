@@ -1,66 +1,61 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Farid Portofolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Farid Portfolio</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <!-- NAVBAR -->
-  <nav class="navbar">
-    <h2 class="logo">Farid</h2>
+<nav>
+  <h2>Farid</h2>
+  <ul>
+    <li><a href="#hero">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
 
-    <button id="menuBtn" aria-label="Open menu">☰</button>
+<section id="hero">
+  <img src="foto.jpg" alt="Foto Farid">
+  <h1>Hi, I'm <span>Farid</span></h1>
+  <h3>Frontend Developer</h3>
+  <p>Saya suka membuat website modern, responsif, dan interaktif.</p>
 
-    <ul id="menu">
-      <li><a href="#about">About</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
+  <div class="buttons">
+    <a href="#projects" class="btn">View Projects</a>
+    <a href="#contact" class="btn outline">Contact Me</a>
+  </div>
+</section>
 
-  <!-- HERO -->
-  <header id="hero">
-    <h1>Hi, I'm Farid</h1>
-    <p>Frontend Developer who loves building interactive websites</p>
+<section id="about">
+  <h2>About Me</h2>
+  <p>
+    Saya Frontend Developer yang sedang mengembangkan skill di HTML, CSS, dan JavaScript.
+    Saya fokus membuat tampilan website yang modern, bersih, dan user-friendly.
+  </p>
+</section>
 
-    <div class="hero-btn">
-      <a href="#projects" class="btn primary">View Projects</a>
-      <a href="#contact" class="btn secondary">Contact Me</a>
-    </div>
-  </header>
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="cards">
+    <div class="card">Website Portfolio</div>
+    <div class="card">Landing Page</div>
+    <div class="card">Mini Game HTML/JS</div>
+  </div>
+</section>
 
-  <!-- ABOUT -->
-  <section id="about" class="about card">
-    <h2>Tentang Saya</h2>
-    <p>
-      Saya seorang Frontend Developer yang sedang belajar membuat website interaktif dan menarik.
-    </p>
-  </section>
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Email: farid419@gmail.com</p>
+  <p>WhatsApp: 082283359710</p>
+</section>
 
-  <!-- PROJECTS -->
-  <section id="projects" class="projects card">
-    <h2>Project</h2>
-    <ul>
-      <li>Website Portfolio</li>
-      <li>Landing Page</li>
-      <li>Mini Game HTML/JS</li>
-    </ul>
-  </section>
+<footer>
+  © 2026 Farid Portfolio
+</footer>
 
-   <!-- CONTACT -->
-  <section id="contact" class="contact card">
-    <h2>Kontak</h2>
-    <p>Email: farid419@gmail.com</p>
-    <p>WhatsApp: 082283359710</p>
-  </section>
-
-  <footer>
-    <p>© 2026 Farid Portfolio</p>
-  </footer>
-
-  <script src="script.js"></script>
 </body>
 </html>
