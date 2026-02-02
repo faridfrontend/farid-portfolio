@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Farid Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+  <h2 class="logo">Farid.</h2>
+  <ul class="menu">
+    <li><a href="#hero">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-text">
+    <h1>Hi, I'm <span>Farid</span></h1>
+    <h3>Frontend Developer</h3>
+    <p>
+      Saya seorang Frontend Developer yang suka membuat website modern, responsif, dan interaktif.
+    </p>
+
+    <div class="hero-btn">
+      <a href="#projects" class="btn primary">View Projects</a>
+      <a href="#contact" class="btn secondary">Let's Talk</a>
+    </div>
+  </div>
+
+  <div class="hero-img">
+    <img src="foto.jpg" alt="Foto Farid">
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <h2>About Me</h2>
+  <p>
+    Saya Frontend Developer yang sedang mengembangkan skill di HTML, CSS, dan JavaScript.
+    Saya suka membuat tampilan website yang bersih, modern, dan user-friendly.
+  </p>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="project-list">
+    <div class="card">Website Portfolio</div>
+    <div class="card">Landing Page</div>
+    <div class="card">Mini Game HTML/JS</div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Email: farid419@gmail.com</p>
+  <p>WhatsApp: 082283359710</p>
+</section>
+
+<footer>
+  <p>© 2026 Farid Portfolio</p>
+</footer>
+
+</body>
+</html>
